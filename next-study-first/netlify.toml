@@ -1,0 +1,8 @@
+[build]
+  base = "next-study-first" # 프로젝트의 기본 디렉토리 설정
+  command = "yarn install && yarn build" # 빌드 명령어
+  publish = "next-study-first/.next" # 정적 파일이 위치하는 디렉토리
+  functions = "" # Netlify 함수 위치
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs" # Next.js 플러그인 추가
